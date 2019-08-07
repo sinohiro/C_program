@@ -1,0 +1,219 @@
+body {
+	 background-color: #2b2b2b;
+  }
+
+h1 {
+	color: #FFF;
+	font-weight:bold;
+}
+
+h3 {
+	font-size: 30px;
+	color: hotpink;
+	border-bottom: 3px solid hotpink;
+}
+
+/*
+img {
+	width:20%;
+	max-width: 60%;
+	height: auto;
+}*/
+
+.profile1 {
+  float: left;
+	width : 30% ;
+  max-width: 30%;
+	height: auto;
+}
+
+.profile2 {
+  float: left;
+}
+
+
+.tabs {
+
+  margin-top: 50px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;}
+
+.tab_item {
+  width: calc(100%/4);
+  height: 50px;
+  border-bottom: 3px solid skyblue;
+  background-color: white;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, skyblue 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: all .3s ease 0s;
+  text-decoration: none;
+}
+.tab_item:hover {
+  opacity: 0.75;
+	color: skyblue;
+	cursor: pointer;
+  background-position: -100% 0;
+  color: #fff;
+}
+
+
+input[name="tab_item"] {
+  display: none;
+}
+
+.tab_content {
+  display: none;
+  padding: 40px 40px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+
+#Home:checked ~ #Home_content,
+#Install:checked ~ #Install_content,
+#How_to_play:checked ~ #How_to_play_content,
+#Future_plans:checked ~ #Future_plans_content{
+  display: block;
+}
+
+
+.tabs input:checked + .tab_item {
+  background-color: skyblue;
+  color: white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+
+.tab_item {
+  width:100%;
+  height: 50px;
+  border-bottom: 3px solid skyblue;
+  background-color: white;
+  line-height: 50px;
+  font-size: 4vw;
+  text-align: center;
+  color: black;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, skyblue 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: all .3s ease 0s;
+  text-decoration: none;
+}
+
+}
+
+/*------------------button-------------------------*/
+
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.close:hover,
+.close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 15.0em 0 0 0 var(--hover);
+}
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover, .offset:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.fill {
+  --color: #a972cb;
+  --hover: #cb72aa;
+}
+
+.pulse {
+  --color: #ef6eae;
+  --hover: #ef8f6e;
+}
+
+.close {
+  --color: #ff7f82;
+  --hover: #ffdc7f;
+}
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+
+.up {
+  --color: #e4cb58;
+  --hover: #94e458;
+}
+
+.slide {
+  --color: hotpink;
+  --hover: hotpink;
+}
+
+.offset {
+  --color: #19bc8b;
+  --hover: #1973bc;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
