@@ -1,0 +1,33 @@
+﻿2016/10/31 17:34:23 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\p_info\Desktop\C++\study2016.10.31\study2016.10.31\study2016.10.31.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "Debug\study2016.10.31.unsuccessfulbuild" のタッチ タスクを実行しています。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt study2016.10.31.cpp
+         study2016.10.31.cpp
+     1>c:\users\p_info\desktop\c++\study2016.10.31\study2016.10.31\study2016.10.31.cpp(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' の宣言を確認してください。
+     1>c:\users\p_info\desktop\c++\study2016.10.31\study2016.10.31\study2016.10.31.cpp(16): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' の宣言を確認してください。
+     1>c:\users\p_info\desktop\c++\study2016.10.31\study2016.10.31\study2016.10.31.cpp(50): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' の宣言を確認してください。
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\p_info\Desktop\C++\study2016.10.31\Debug\study2016.10.31.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\study2016.10.31.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\p_info\Desktop\C++\study2016.10.31\Debug\study2016.10.31.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\p_info\Desktop\C++\study2016.10.31\Debug\study2016.10.31.lib" /MACHINE:X86 Debug\study2016.10.31.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\study2016.10.31.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\study2016.10.31.exe.embed.manifest" /manifest Debug\study2016.10.31.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         study2016.10.31.vcxproj -> C:\Users\p_info\Desktop\C++\study2016.10.31\Debug\study2016.10.31.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\study2016.10.31.unsuccessfulbuild" を削除しています。
+         "Debug\study2016.10.31.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\p_info\Desktop\C++\study2016.10.31\study2016.10.31\study2016.10.31.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.07
